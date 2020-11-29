@@ -6,7 +6,7 @@ from math_things import V3
 from light import Light
 from cube import *
 from plane import *
-r = Raytracer(100, 100)
+r = Raytracer(300, 300)
 
 r.light = Light(
   position=V3(30, 20, 20),
